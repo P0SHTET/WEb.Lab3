@@ -1,0 +1,23 @@
+@import "/drop-style.css";
+
+.main-table{
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.cell1{
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+.cell2{
+    text-align: center;
+    background-color: orange;
+    color: gray;
+}
+.cell3{
+    text-align: center;
+    background-color: yellow;
+    color: black;
+}

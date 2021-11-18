@@ -1,0 +1,33 @@
+@import "/drop-style.css";
+
+.page{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.one-color{
+    
+    border: blue solid 2px;
+}
+
+.two-color{
+    border: red solid 2px;
+    border-left-color: blue;
+}
+
+.three-color{
+    border: red solid 2px;
+    border-left-color: blue;
+    border-bottom-color: green;
+}
+
+.four-color{
+    border: red solid 2px;
+    border-left-color: violet;
+    border-bottom-color: blue;
+    border-right-color: green;
+}

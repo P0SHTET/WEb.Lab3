@@ -1,0 +1,30 @@
+@import "/drop-style.css";
+
+.page{
+    padding-top: 20px;
+    padding-left: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    font-size: 20px;
+}
+
+.citata1{
+    text-indent: -90px;
+    line-height: 20px;;
+}
+
+.citata1::before{
+    padding-right: 50px;
+    content: "«";
+    color: brown;
+    font-size: 80px;
+}
+
+.citata2::after{
+    font-size: 80px;
+    content: "»";
+    color:brown;
+    padding-left: 210px;
+}

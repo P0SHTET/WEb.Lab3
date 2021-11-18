@@ -1,0 +1,26 @@
+@import "/drop-style.css";
+
+.page{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    width:fit-content;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    box-sizing: content-box;
+}
+
+.rectangle{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+}
+
+.rectangle:nth-child(even){
+    background-color: skyblue;
+}
+
+.rectangle:hover{
+    background-color: orange;
+}

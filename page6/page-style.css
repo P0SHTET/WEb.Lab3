@@ -1,0 +1,30 @@
+@import "/drop-style.css";
+
+.page{
+    padding-top: 20px;
+    padding-left: 100px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    font-size: 20px;
+}
+
+.def-text{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    white-space: pre;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.gray-text{
+    background-color: gray;
+    color: white;
+    white-space: pre;
+    padding-left: 10px;
+}
+
+.my-img{
+    transform: translate(400px, -400px);
+}

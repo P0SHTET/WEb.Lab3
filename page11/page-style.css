@@ -1,0 +1,54 @@
+@import "/drop-style.css";
+
+.main-table{
+
+    margin: 100px;
+    width: 800px;
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.main-table>thead td{
+    background-color: steelblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-table>tbody td{
+    
+    padding: 10px;
+    padding-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-table>tbody td:nth-child(1),
+.main-table>tbody td:nth-child(2),
+.main-table>tbody td:nth-child(3)
+{
+    text-align: left;
+}
+
+.main-table>tbody td:nth-child(4),
+.main-table>tbody td:nth-child(5)
+{
+    text-align: right;
+}
+
+.main-table>tbody tr:nth-child(odd) td{
+    background-color: #F4FBFF;
+}
+
+
+.main-table>tbody tr:last-child td{
+    background-color: steelblue;
+    color: white;
+    font-weight: bold;
+}
+
+td:empty{
+    background-color: rgb(255, 195, 184);
+}

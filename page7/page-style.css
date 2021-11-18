@@ -1,0 +1,59 @@
+@import "/drop-style.css";
+
+.page{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    font-size: 20px;
+    align-self: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 1250px;
+}
+
+.center-text-align{
+    text-align: center;
+    align-self: center;
+
+}
+
+.italic-text{
+    font-style: italic;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.red-text{
+    color: red;
+}
+
+.gray-text{
+    color: gray;
+}
+
+.title-text{
+    color: rgb(151, 151, 80);
+    letter-spacing: 8px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title-text:first-child{
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: black 1px 1px;
+    font-size: 24px;
+}
+
+.food-description{
+    margin-left: 40px;
+}
+
+.title-text2{
+    font-weight: bold;
+    color: brown;
+}

@@ -1,0 +1,51 @@
+@import "/drop-style.css";
+
+.page{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.one-span{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.rec{
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    opacity: .7;
+}
+
+.rec:first-child{
+    opacity: .4;
+}
+
+.rec:last-child{
+    opacity: 1;
+}
+
+.one-span:nth-child(1) .rec{
+    background-color: red;
+}
+
+.one-span:nth-child(2) .rec{
+    background-color: orange;
+}
+
+.one-span:nth-child(3) .rec{
+    background-color: yellow;
+}
+
+.one-span:nth-child(4) .rec{
+    background-color: blue;
+}
+
+.one-span:nth-child(5) .rec{
+    background-color: violet;
+}

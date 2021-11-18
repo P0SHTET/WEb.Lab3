@@ -1,0 +1,51 @@
+@import "/drop-style.css";
+.header-style{
+    font-size: 24px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight:550;
+    margin-bottom: 5px;
+}
+.line{
+    width: 45px;
+    height: 2px;
+    background-color: rgb(209, 74, 101);
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+
+.def-text{
+    
+    font-size: 20px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-bottom: 30px;
+}
+.def-text:first-child{
+    font-size: 20px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-bottom: 30px;
+    color: rgb(209, 74, 101);
+    margin-bottom: 30px;
+}
+
+.more-button{
+    background-color: rgb(209, 74, 101);
+    color: white;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    border-width: 0px;
+}
+
+.page{
+    width: 650px;
+    padding-left: 100px;
+    padding-top: 50px   ;
+}
